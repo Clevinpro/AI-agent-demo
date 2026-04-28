@@ -1,0 +1,12 @@
+{
+  "name": "ai-agent-demo-root",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "lint": "pnpm --dir ai-agent-client lint && pnpm --dir ai-agent-server lint",
+    "test": "pnpm --dir ai-agent-server test"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
